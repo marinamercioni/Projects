@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="spain">Spain</string>
+    <string name="roger_federer">Roger Federer</string>
+    <string name="sergey_brin">Sergey Brin</string>
+    <string name="larry_page">Larry Page</string>
+    <string name="submit_answers">Submit answers</string>
+    <string name="refresh">Refresh</string>
+    <string name="_4_who_founded_google">4. Who founded Google?</string>
+    <string name="your_answer">Your answer</string>
+    <string name="_4">4</string>
+    <string name="_3_which_month_google_developer_challenge_scholarship_android_basics_started">3. Which month Google Developer Challenge Scholarship Android Basics started?</string>
+    <string name="romania">Romania</string>
+    <string name="_2_how_many_countries_passes_the_danube_river">2. How many countries passes the Danube River?</string>
+    <string name="_9">9</string>
+    <string name="_1_where_is_located_dracula_castle">1. Where is located Dracula Castle?</string>
+    <string name="italia">Italia</string>
+    <string name="_5">5</string>
+    <string name="todo">TODO</string>
+    <string name="Share">Share</string>
+
+
+</resources>

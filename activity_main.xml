@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/_1_where_is_located_dracula_castle"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/answer_one1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="8dp"
+                android:text="@string/italia"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp" />
+
+            <RadioButton
+                android:id="@+id/answer_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="8dp"
+                android:text="@string/romania"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp" />
+
+            <RadioButton
+                android:id="@+id/answer_one2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="8dp"
+                android:layout_gravity="start"
+                android:text="@string/spain"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/_2_how_many_countries_passes_the_danube_river"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/answer_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="8dp"
+                android:text="@string/_9"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp" />
+
+            <RadioButton
+                android:id="@+id/answer_two1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="8dp"
+                android:text="@string/_4"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp" />
+
+            <RadioButton
+                android:id="@+id/answer_two2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="8dp"
+                android:text="@string/_5"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/_3_which_month_google_developer_challenge_scholarship_android_basics_started"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/your_answer"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/_4_who_founded_google"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/answer_four1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="8dp"
+            android:text="@string/larry_page"
+            android:layout_marginStart="20dp" />
+
+        <CheckBox
+            android:id="@+id/answer_four_incorrect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="8dp"
+            android:text="@string/roger_federer"
+            android:layout_marginStart="20dp" />
+
+        <CheckBox
+            android:id="@+id/answer_four2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="8dp"
+            android:text="@string/sergey_brin"
+            android:layout_marginStart="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#7bd0ed"
+            android:onClick="submitAnswers"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/submit_answers"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="#7bd0ed"
+            android:onClick="Refresh"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/refresh"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#7bd0ed"
+            android:onClick="Share"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/Share"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
+
